@@ -18,7 +18,7 @@
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
 
-			</ul>	
+			</ul class="copyright">
 				 <!-- 小站运行时间 -->
 				 <div id="days"></div>
 				 <script language="javascript">
@@ -37,7 +37,7 @@
 				 e_minsold=(e_hrsold-hrsold)*60;
 				 minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
 				 seconds=setzero(Math.floor((e_minsold-minsold)*60));
-				 document.getElementById('days').innerHTML="This Sste has been running for "+daysold+" days"+hrsold+" hours"+minsold+" mins"+seconds+" seconds";
+				 document.getElementById('days').innerHTML="This site has been running for "+daysold+" days "+hrsold+" hours "+minsold+" mins"+seconds+" seconds";
 				 }
 				 function setzero(i){
 				 if (i<10)
