@@ -170,29 +170,30 @@
 		}
 	}
 	#sidNav{
-		width: 23%; /*change font size of text in nav bar*/
-		height: 80vh;
+		width: 80%; /*change font size of text in nav bar*/
+		height: 80%;
 		position: fixed;
 		left: 0;
-		top:auto;
+		top: 20%;
 		z-index: 2;
 	}
 	nav ul li{
-		list-style: none;   
+		list-style: none;  
+		width: 100%; 
 	}
 	#menuBtn{
-		width: 50px;
-		height: 20px;
-		text-align: center;
+		width: 5%;
+		height: 5%;
+		text-align: left;
 		position: fixed;
-		left: 30px;
-		top: 100px;
+		left: 5%;
+		top: 15%;
 		border-radius: 3px;
 		z-index: 3;
 		cursor: pointer;
 	}
 	#menuBtn img{
-		width: 20px;
-		margin-top: 15px;
+		width: 5%;
+		margin-top: 15%;
 		opacity: 0;
 	}
