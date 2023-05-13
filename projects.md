@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Projects
-image: assets/images/pic01.jpg
+image: assets/images/pic13.jpg
 nav-menu: true
-description: Projects made from online courses
+description: Projects created from online courses
 ---
 
 <!-- Main -->

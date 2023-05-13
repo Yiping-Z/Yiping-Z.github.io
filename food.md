@@ -3,7 +3,8 @@ title: Food
 layout: food
 description: food to my liking
 image: assets/images/food.jpg
-nav-menu: true
+nav-menu: false
+show_tile: false
 ---
 
 <!-- Main -->
