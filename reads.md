@@ -7,5 +7,4 @@ nav-menu: true
 show_tile: true
 ---
 
-<!-- Main -->
 

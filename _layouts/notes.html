@@ -20,7 +20,7 @@
       <!-- One -->
       <section id="one">
 	<div class="inner">
-    <div class="w3-sidebar w3-bar-block" style="width:25%">
+    <div class="w3-sidebar w3-bar-block" style="width:25%;position:fixed;top:0" ;>
       {% for post in site.posts %}
       {% if post.title != 404 %}
       <a href="{{ site.baseurl }}#{{ post.title}}" class="w3-bar-item w3-button"><p>{{post.title}}</p></a>
@@ -31,12 +31,12 @@
           {% for post in site.posts %}
 	  {% if post.title != 404 %}
     
-      <header class="major">
+      <header class="major" id="{{ post.title}}">
         <h1>{{ post.title }}</h1>
       </header>
       {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
       {% if post.date %}<p>{{ post.date }}</p>{% endif %}
-      <p id="{{ post.title}}">{{ post.content }}</p>
+      <p>{{ post.content }}</p>
     
 	  {% endif %}
           {% endfor %}
