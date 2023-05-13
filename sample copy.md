@@ -1,6 +1,6 @@
 ---
 title: Travel
-layout: travel
+layout: photo_gallery
 description: pictures taken while travelling
 image: assets/images/pic07.jpg
 nav-menu: false
