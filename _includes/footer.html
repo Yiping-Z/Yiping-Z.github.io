@@ -24,7 +24,7 @@
 				 <script language="javascript">
 				 function show_date_time(){
 				 window.setTimeout("show_date_time()", 1000);
-				 BirthDay=new Date("05/14/2023 12:00:00");
+				 BirthDay=new Date("05/14/2023 00:00:00");
 				 today=new Date();
 				 timeold=(today.getTime()-BirthDay.getTime());
 				 sectimeold=timeold/1000
@@ -37,7 +37,7 @@
 				 e_minsold=(e_hrsold-hrsold)*60;
 				 minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
 				 seconds=setzero(Math.floor((e_minsold-minsold)*60));
-				 document.getElementById('days').innerHTML="This site has been running for "+daysold+" days "+hrsold+" hours "+minsold+" mins"+seconds+" seconds";
+				 document.getElementById('days').innerHTML="This site has been running for "+daysold+" days "+hrsold+" hours "+minsold+" mins "+seconds+" seconds";
 				 }
 				 function setzero(i){
 				 if (i<10)
