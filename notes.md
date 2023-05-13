@@ -1,11 +1,11 @@
 ---
-layout: posts
-title: Posts
-landing-title: 'posts'
+layout: notes
+title: Notes
+landing-title: 'notes'
 nav-menu: true
 description:  study notes related to framework/language/algorithm
 image: assets/images/pic12.jpg
 author: null
 ---
 
-<h1>Posts</h1>
+<h1>Notes</h1>
