@@ -1,7 +1,7 @@
 ---
 layout: movies
 title: Movies
-description: 
+description: movies that I found worth watching
 image: assets/images/pic11.jpg
 nav-menu: true
 ---

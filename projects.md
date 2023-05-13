@@ -3,6 +3,7 @@ layout: page
 title: Projects
 image: assets/images/pic01.jpg
 nav-menu: true
+description: Projects made from online courses
 ---
 
 <!-- Main -->

@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-Trying to read as much as I can during my free time, and not just for job related books.
+Trying to read as much as I can during my free time, and not only job related books.

@@ -1,9 +1,9 @@
 ---
 layout: posts
 title: Posts
-landing-title: 'All posts'
+landing-title: 'posts'
 nav-menu: true
-description: null
+description:  study notes related to framework/language/algorithm
 image: assets/images/pic01.jpg
 author: null
 ---
