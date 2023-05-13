@@ -2,7 +2,8 @@
 layout: page
 title: Projects
 image: assets/images/pic09.jpg
-nav-menu: true
+nav-menu: false
+show_tile: false
 description: Projects created from online courses
 ---
 
