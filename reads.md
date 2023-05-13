@@ -1,9 +1,10 @@
 ---
 title: Reads
 layout: reads
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: 
 image: assets/images/pic07.jpg
 nav-menu: true
+show_tile: false
 ---
 
 <!-- Main -->
