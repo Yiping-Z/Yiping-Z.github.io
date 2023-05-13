@@ -1,7 +1,7 @@
 ---
-title: Travel
-layout: travel
-description: pictures taken while travelling
+title: Food
+layout: food
+description: food to my liking
 image: assets/images/food.jpg
 nav-menu: true
 ---
