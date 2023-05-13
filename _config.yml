@@ -1,9 +1,9 @@
 # site settings
-title: Welcome to my personal site
+title: Yiping-Z
 subtitle: 
-email: lindazyp126@gmail.com
+email: 
 description: 
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 
@@ -24,11 +24,14 @@ tiles-count: 6
 socials:
   GitHub: https://github.com/Yiping-Z
   GitLab:
-  Instagram:
+  Instagram: https://instagram.com/yiping_98/
   LinkedIn: https://www.linkedin.com/in/yiping-zhang-33ab24b1/
   Twitter:
   Facebook:
   Slack:
+  CSDN: https://blog.csdn.net/YipingZhang126
+  Leetcode: https://leetcode.com/ZhangYiping/
+
 
 # build settings
 markdown: kramdown
