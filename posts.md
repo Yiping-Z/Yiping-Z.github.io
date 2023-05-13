@@ -8,4 +8,4 @@ image: assets/images/pic12.jpg
 author: null
 ---
 
-<h1>All posts</h1>
+<h1>Posts</h1>
