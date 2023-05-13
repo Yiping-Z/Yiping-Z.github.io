@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: note
 title: 并发编程 1, 2 (lianglianglee)
 description: 
 image: 

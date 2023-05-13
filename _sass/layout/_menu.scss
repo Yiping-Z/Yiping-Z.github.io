@@ -169,3 +169,30 @@
 			}
 		}
 	}
+	#sidNav{
+		width: 25%; /*change font size of text in nav bar*/
+		height: 80vh;
+		position: fixed;
+		left: 0;
+		top:150;
+		z-index: 2;
+	}
+	nav ul li{
+		list-style: none;   
+	}
+	#menuBtn{
+		width: 50px;
+		height: 20px;
+		text-align: center;
+		position: fixed;
+		left: 30px;
+		top: 100px;
+		border-radius: 3px;
+		z-index: 3;
+		cursor: pointer;
+	}
+	#menuBtn img{
+		width: 20px;
+		margin-top: 15px;
+		opacity: 0;
+	}

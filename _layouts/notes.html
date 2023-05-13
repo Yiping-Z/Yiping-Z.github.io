@@ -21,13 +21,23 @@
       <section id="one">
 	<div class="inner">
     <div class="w3-sidebar w3-bar-block" style="width:25%;position:fixed";>
-      {% for post in site.posts %}
-      {% if post.title != 404 %}
-      <a href="{{ site.baseurl }}#{{ post.title}}" class="w3-bar-item w3-button"><p>{{post.title}}</p></a>
-      {% endif %}
-          {% endfor %}
+      <div id="sidNav">
+        <nav>
+            <ul>
+              {% for post in site.posts %}
+                {% if post.title != 404 %}
+                <li><a href="{{ site.baseurl }}#{{ post.title}}" class="w3-bar-item w3-button"><p>{{post.title}}</p></a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+        </nav>      
     </div>
-    <div style="margin-left:25%">
+    <div id="menuBtn">
+      <svg id = "#menu2" style="color: white" height="40px" width="160px" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m4.5 6.5h12" fill="white"></path><path d="m4.498 10.5h11.997" fill="white"></path><path d="m4.5 14.5h11.995" fill="white"></path></g></svg>
+        <!-- <img src="http://www.w3.org/2000/svg" id="menu2"> -->
+    </div>   
+    </div>
+    <div id = "content" style="margin-left:25%">
           {% for post in site.posts %}
 	  {% if post.title != 404 %}
     
@@ -35,7 +45,7 @@
         <h1>{{ post.title }}</h1>
       </header>
       {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
-      {% if post.date %}<p>{{ post.date }}</p>{% endif %}
+      {% if post.date %}<p>{{ post.date  | date_to_long_string}}</p>{% endif %}
       <p>{{ post.content }}</p>
     
 	  {% endif %}
@@ -43,6 +53,22 @@
         </div>
 	</div>
       </section>
+      <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sidNav")
+        var menu = document.getElementById("menu2")
+        var content = document.getElementById("content")
+        menuBtn.onclick = function(){
+            if(sideNav.style.left == "-25%"){
+                sideNav.style.left = "0";
+                content.style.marginLeft = "25%";
+            }
+            else{
+                sideNav.style.left = "-25%";
+                content.style.marginLeft = "0%";
+            }
+        }
+      </script>
 
     </div>
 
