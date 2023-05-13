@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Notes
-description: Lorem ipsum dolor est
+layout: movies
+title: Movies
+description: 
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
