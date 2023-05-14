@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: projects
 title: Projects
 image: assets/images/pic09.jpg
 nav-menu: true

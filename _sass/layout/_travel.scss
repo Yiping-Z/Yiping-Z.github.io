@@ -1,0 +1,23 @@
+/* xs */
+img {
+    width: 100%;
+    height: auto;
+}
+/* sm */
+@media (min-width: 768px) {
+    img {
+        width: 49%;
+    }
+}
+/* md */
+@media (min-width: 992px) {
+    img {
+        width:49%;
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+    img {
+        width: 24%;
+    }
+}

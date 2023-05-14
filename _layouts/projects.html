@@ -29,14 +29,8 @@
                 </div>
             </div>
         </section>
-        
-        <div style="display:block;margin-left:5%; margin-right:5%;">
-            {% for image in page.images %}
-            <a href="{{ image.link }}">
-                <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
-            </a>
-            {% endfor %}
-        </div>
+
+    {{ content }}
 
     {% include footer.html %}
 
