@@ -49,7 +49,7 @@
 			</ul>
 	 	</div>
 	</footer>
-
+	<?xml version="1.0" ?><svg id='scroll-to-top' fill="#FFF" width="30px" height="30px" data-name="Layer 1" id="Layer_1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><title/><path d="M11.32,28.78l6.56,6.56L32,21.2,46.16,35.34l6.56-6.56L32,8.09Zm34.84,3.73L32,18.37,17.87,32.51l-3.73-3.73L32,10.91,49.89,28.78Z"/><path d="M17.84,55.91,32,41.77,46.13,55.91l6.56-6.56L32,28.66l-20.7,20.7Zm32-6.56-3.73,3.73L32,38.94,17.84,53.09l-3.73-3.73L32,31.49Z"/></svg>
 </div>
 
 <!-- Scripts -->
@@ -60,3 +60,41 @@
 	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+
+	<script>
+		function scrollToTop() {
+		$("html, body").animate({ scrollTop: 0 }, 400);
+			return false;
+		}
+		
+		function toggleScrollToTopButton() {
+			var threshold = 200;
+			if ($(window).scrollTop() > threshold) {
+			$("#scroll-to-top").fadeIn("slow");
+			} else {
+			$("#scroll-to-top").fadeOut("slow");
+			}
+		}
+		
+		$(document).ready(function() {
+			$("#scroll-to-top").click(scrollToTop);
+			$(window).scroll(toggleScrollToTopButton);
+		});
+		function scrollTopSmooth( initY, duration = 300, timingName = "linear" ) {  
+			const timingFunc = TIMINGFUNC_MAP[ timingName ];
+			let start = null;
+			const step = ( timestamp ) => {
+				start = start || timestamp;
+				const progress = timestamp - start,
+					// Growing from 0 to 1
+					time = Math.min( 1, ( ( timestamp - start ) / duration ) );
+
+				window.scrollTo( 0, initY - ( timingFunc( time ) * initY ) );
+				if ( progress < duration ) {
+				window.requestAnimationFrame( step );
+				}
+			};
+
+			window.requestAnimationFrame( step );  
+		}
+	  </script>
