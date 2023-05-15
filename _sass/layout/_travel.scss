@@ -4,21 +4,10 @@ img {
     width: 95%;
     height: auto;
 }
-#sideNav {
-    margin-left:2%;
-    width: 50%;
-    display:none;
-    margin-left:-50%!important;
-}
 /* sm */
 @media (min-width: 768px) {
     img {
         width: 49%;
-    }
-}
-@media (min-width: 768px) {
-    #sideNav {
-        width: 40%!important;
     }
 }
 /* md */
@@ -27,19 +16,9 @@ img {
         width:49%;
     }
 }
-@media (min-width: 992px) {
-    #sideNav{
-        width: 30%!important;
-    }
-}
 /* lg */
 @media (min-width: 1200px) {
     img {
         width: 24%;
-    }
-}
-@media (min-width: 1200px) {
-    #sideNav {
-        width: 20%;
     }
 }
