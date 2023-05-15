@@ -205,4 +205,11 @@
 		opacity: 0;
 	}
 
+	::-webkit-scrollbar-track {
+	background: _palette(accent6);
+	}
 	
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+	background: _palette(accent4);
+	}
