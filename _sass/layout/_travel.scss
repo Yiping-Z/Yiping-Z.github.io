@@ -7,7 +7,8 @@ img {
 #sideNav {
     margin-left:2%;
     width: 50%;
-    height: auto;
+    display:none;
+    margin-left:-50%!important;
 }
 /* sm */
 @media (min-width: 768px) {
@@ -17,7 +18,7 @@ img {
 }
 @media (min-width: 768px) {
     #sideNav {
-        width: 40%;
+        width: 40%!important;
     }
 }
 /* md */
@@ -28,7 +29,7 @@ img {
 }
 @media (min-width: 992px) {
     #sideNav{
-        width:30%;
+        width: 30%!important;
     }
 }
 /* lg */
