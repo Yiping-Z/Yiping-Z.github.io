@@ -178,6 +178,8 @@
 		padding-top:1em;
 		z-index: 2;
 		background-color: #2a2f4a;
+		min-height: 300px; // I suggest you give a value to your sidebar. 
+    	width:300px; //This is your width;
 	}
 	nav ul li{
 		list-style: none;  
