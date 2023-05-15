@@ -4,10 +4,20 @@ img {
     width: 95%;
     height: auto;
 }
+#sideNav {
+    margin-left:2%;
+    width: 50%;
+    height: auto;
+}
 /* sm */
 @media (min-width: 768px) {
     img {
         width: 49%;
+    }
+}
+@media (min-width: 768px) {
+    #sideNav {
+        width: 40%;
     }
 }
 /* md */
@@ -16,9 +26,19 @@ img {
         width:49%;
     }
 }
+@media (min-width: 992px) {
+    #sideNav{
+        width:30%;
+    }
+}
 /* lg */
 @media (min-width: 1200px) {
     img {
         width: 24%;
+    }
+}
+@media (min-width: 1200px) {
+    #sideNav {
+        width: 20%;
     }
 }
